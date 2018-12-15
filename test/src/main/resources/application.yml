@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: test-mine
+
+
+server:
+  port: 12100
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
