@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: turbine-mine
+
+
+server:
+  port: 1200
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+feign:
+  hystrix:
+    enabled: true
+#ribbon:
+#  eureka:
+#    enabled: false
