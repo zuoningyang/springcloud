@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-client-mine
+  cloud:
+    config:
+      
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 12301
