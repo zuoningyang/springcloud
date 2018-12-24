@@ -1,9 +1,4 @@
-spring:
-  application:
-    name: config-client-mine
-  cloud:
-    config:
-      
+
 
 
 eureka:
